@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap');
+
+
+.nav{
+    background-color: #125150
+}
+
+.title{
+    color: #eaead1;
+    margin-top: 8px;
+    margin-left: 1rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.subtitle{
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.botones-menu{
+    position: absolute;
+    left: 30% ;
+}
