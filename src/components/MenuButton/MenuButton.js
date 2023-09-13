@@ -1,9 +1,10 @@
 import React from 'react'
-import './MenuButton.css'
 import Button from 'react-bootstrap/Button'
+import './MenuButton.css'
+
 
 export default function MenuButton({text}) {
     return (
-        <Button variant="outline-light" className="button">{text}</Button>
+        <Button variant="outline-warning" className="button">{text}</Button>
     )
 }
