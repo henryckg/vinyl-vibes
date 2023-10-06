@@ -1,0 +1,218 @@
+[
+    {
+        "id": "1",
+        "name": "Adele - 21",
+        "price": 22,
+        "category": "vinilos",
+        "img": "/images/adele-21.jpg",
+        "stock": 5,
+        "description": "Género: Pop. Vinilo simple. Fecha de publicación: 2011 "
+    },
+    {
+        "id": "2",
+        "name": "Al Green - Greatest Hits",
+        "price": 18,
+        "category": "vinilos",
+        "img": "/images/al-green-greatest-hits.jpg",
+        "stock": 3,
+        "description": "Género: Soul. Vinilo simple. Fecha de publicación: 1975"
+    },
+    {
+        "id": "3",
+        "name": "Amy Winehouse - Back to Black",
+        "price": 23,
+        "category": "vinilos",
+        "img": "/images/amy-winehouse-back-to-black.jpg",
+        "stock": 7,
+        "description": "Género: Soul. Vinilo simple. Fecha de publicación: 2006"
+    },
+    {
+        "id": "4" ,
+        "name": "Audio-Technica AT-LP60X",
+        "price": 109,
+        "category": "tornamesas",
+        "img": "/images/audio-technica-atlp60x.jpg",
+        "stock": 4,
+        "description": "Tornamesa de correa automática. Velocidades de reproducción 33 y 45 RPM. Preamplificador de phono integrado"
+    },
+    {
+        "id": "5",
+        "name": "Audio-Technica AT-LP120X",
+        "price": 249,
+        "category": "tornamesas",
+        "img": "/images/audio-technica-atlp120x.jpg",
+        "stock": 2,
+        "description": "Tornamesa profesional manual de motor directo. Velocidades de reproducción de 33, 45 y 78RPM. Peso de brazo ajustable."
+    },
+    {
+        "id": "6",
+        "name": "Audio-Technica AT-VM95E",
+        "price": 34,
+        "category": "accesorios",
+        "img": "/images/audio-technica-atvm95e.jpg",
+        "stock": 6,
+        "description": "Cápsula con aguja elíptica. Montura de 1/2 de pulgada. Ideal para tornamesas AT-LP120X"
+    },
+    {
+        "id": "7",
+        "name": "Blink128 - Enema Of The State",
+        "price": 25,
+        "category": "vinilos" ,
+        "img": "/images/blink182-enema-of-the-state.jpg",
+        "stock": 5,
+        "description": "Género: Pop Punk. Vinilo simple. Fecha de publicación: 1999"
+    },
+    {
+        "id": "8",
+        "name": "Bob Marley - Legend",
+        "price": 18,
+        "category": "vinilos",
+        "img": "/images/bob-marley-legend.jpg",
+        "stock": 11,
+        "description": "Género: Reggae. Vinilo simple. Fecha de publicación: 1984"
+    },
+    {
+        "id": "9" ,
+        "name": "Bruno Mars - 24K Magic",
+        "price": 23,
+        "category": "vinilos",
+        "img": "/images/bruno-mars-24k-magic.jpg",
+        "stock": 3,
+        "description": "Género: Pop. Vinilo simple. Fecha de publicación: 2006"
+    },
+    {
+        "id": "10",
+        "name": "Crosley C100",
+        "price": 214,
+        "category": "tornamesas",
+        "img": "/images/crosley-c100.jpg",
+        "stock": 1,
+        "description": "Tornamesa de correa. Tiene conexión bluetooth. Peso ajustable y preamplificador de phono integrado"
+    },
+    {
+        "id": "11",
+        "name": "Elvis Presley - 30 #1 Hits",
+        "price": 28,
+        "category": "vinilos",
+        "img": "/images/elvis-presley-30-hits.jpg",
+        "stock": 9,
+        "description": "Género: Rock & Roll. Vinilo doble. Fecha de publicación: 2002"
+    },
+    {
+        "id": "12",
+        "name": "John Coltrane - Blue Train",
+        "price": 18,
+        "category": "vinilos",
+        "img": "/images/john-coltrane-blue-train.jpg",
+        "stock": 3,
+        "description": "Género: Jazz. Vinilo simple. Fecha de publicación: 1958"
+    },
+    {
+        "id": "13",
+        "name": "Madonna - Bedtime Stories",
+        "price": 16,
+        "category": "vinilos",
+        "img": "/images/madonna-bedtime-stories.jpg",
+        "stock": 5,
+        "description": "Género: Pop. Vinilo simple. Fecha de publicación: 1994"
+    },
+    {
+        "id": "14",
+        "name": "Mobile Fidelity Fundas",
+        "price": 18,
+        "category": "accesorios",
+        "img": "/images/mobile-fidelity-record-sleeves.jpg",
+        "stock": 10,
+        "description": "Fundas externas. Pack incluye 50 unidades."
+    },
+    {
+        "id": "15",
+        "name": "Oasis - (What's The Story) Morning Glory?",
+        "price": 30,
+        "category": "vinilos",
+        "img": "/images/oasis-whats-the-story.jpg",
+        "stock": 4,
+        "description": "Género: Rock. Vinilo doble. Fecha de publicación: 1995"
+    },
+    {
+        "id": "16",
+        "name": "Ortofon 2M Red",
+        "price": 104,
+        "category": "accesorios",
+        "img": "/images/ortofon-2mred.jpg",
+        "stock": 3,
+        "description": "Cápsula con aguja elíptica."
+    },
+    {
+        "id": "17",
+        "name": "Pink Floyd - Dark Side Of The Moon",
+        "price": 28,
+        "category": "vinilos" ,
+        "img": "/images/pink-floyd-dark-side.jpg",
+        "stock": 13,
+        "description": "Género: Rock. Vinilo simple. Fecha de publicación: 1973"
+    },
+    {
+        "id": "18",
+        "name": "Queen - A Night At The Opera",
+        "price": 32,
+        "category": "vinilos" ,
+        "img": "/images/queen-a-night-at-the-opera.jpg",
+        "stock": 5,
+        "description": "Género: Rock. Vinilo simple. Fecha de publicación: 1975"
+    },
+    {
+        "id": "19",
+        "name": "Cables RCA para Tornamesa",
+        "price": 14,
+        "category": "accesorios" ,
+        "img": "/images/rca-turntablecables.jpg",
+        "stock": 3,
+        "description": "Cable RCA para tornamesa. Incluye pin de tierra. Longitud de 0,9mt"
+    },
+    {
+        "id": "20",
+        "name": "Sony PS-LX310BT",
+        "price": 219,
+        "category": "tornamesas",
+        "img": "/images/sony-ps-lx310bt.jpg",
+        "stock": 2,
+        "description": "Tornamesa de transmisión de correa. Incluye bluetooth. Totalmente automática."
+    },
+    {
+        "id": "21",
+        "name": "Technics - SL-1210MK2",
+        "price": 899,
+        "category": "tornamesas",
+        "img": "/images/technics-sl1210mk2.jpg",
+        "stock": 2,
+        "description": "Tornamesa profesional de motor directo. Totalmente manual, no incluye aguja."
+    },
+    {
+        "id": "22",
+        "name": "Mat para Tornamesa",
+        "price": 12,
+        "category": "accesorios",
+        "img": "/images/turntable-mat.jpg",
+        "stock": 5,
+        "description": "Mat de color negro de goma para tornamesas. "
+    },
+    {
+        "id": "23",
+        "name": "Clamp de contrapeso para Tornamesa",
+        "price": 15,
+        "category": "accesorios",
+        "img": "/images/turntable-record-clamp.jpg",
+        "stock": 2,
+        "description": "Clamp con burbuja de nivel para verificar nivelación de tornamesa."
+    },
+    {
+        "id": "24",
+        "name": "Slipmat para Tornamesa",
+        "price": 11,
+        "category": "accesorios",
+        "img": "/images/turntable-slipmat.jpg",
+        "stock": 4,
+        "description": "Mat de corcho anti-estático"
+    }
+]
