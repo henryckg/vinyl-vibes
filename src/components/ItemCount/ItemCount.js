@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./ItemCount.css"
 
-export default function ItemCount({stock}) {
+export default function ItemCount({stock, onAdd}) {
 
     const [count, setCount] = useState(1)
 
@@ -11,10 +11,6 @@ export default function ItemCount({stock}) {
 
     const decrement = () => {    
         count > 1 && setCount(count-1)
-    }
-
-    const addToCart = () => {
-        console.log(`Se agregaron ${count} unidades`)
     }   
 
     return (
@@ -24,7 +20,7 @@ export default function ItemCount({stock}) {
                 <p className="count">{count}</p>
                 <button className="count-btn" onClick={increment}>+</button>
             </div>
-            <button className="agregar-carro" onClick={addToCart} disabled={!stock}>Agregar al Carro</button>
+            <button className="agregar-carro" onClick={()=> onAdd(count)} disabled={!stock}>Agregar al Carro</button>
         </div>
     )
 }

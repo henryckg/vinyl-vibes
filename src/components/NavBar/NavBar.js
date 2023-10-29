@@ -15,7 +15,7 @@ export default function NavBar() {
                 <NavLink to='/category/vinilos' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Vinilos</NavLink>
                 <NavLink to='/category/tornamesas' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Tornamesas</NavLink>
                 <NavLink to='/category/accesorios' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Accesorios</NavLink>
-                <NavLink to='/contact'className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Contacto</NavLink>
+                <NavLink to='/contact' className={({isActive}) => isActive ? 'ActiveOption' : 'Option'}>Contacto</NavLink>
             </div>
             <CartWidget/>
         </nav>  
