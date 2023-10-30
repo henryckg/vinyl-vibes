@@ -1,6 +1,26 @@
+# Vinyl Vibes
+
+Vinyl Vibes is a web application for music enthusiasts and vinyl collectors. Explore a vast collection of vinyl records, audio equipment and build your personal collection.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Dependencies
+
+You must run the following:
+
+### `npm install react-bootstrap bootstrap`
+
+To utilize various Bootstrap components and designs -as Spinner Component-.
+
+### `npm install firebase`
+
+To include the Firestore Database in the project, so you can display all the products in the app and send orders to the database.
+
+### `npm install  react-router-dom`
+
+You'll get a set of components and utilities that facilitate the creation of routes, links, and navigation management in a React application.
 
 ## Available Scripts
 

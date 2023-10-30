@@ -25,6 +25,7 @@ export const CartProvider = ({children}) => {
             secondCart.push(itemAdded)
             setStockLimit("")
         }
+        
         setCart(secondCart) 
     }
 

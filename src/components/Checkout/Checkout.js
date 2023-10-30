@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { CartContext } from '../../context/CartContext'
 import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../../services/firebase/firebaseConfig'
+import "./Checkout.css"
 import SpinnerComponent from '../Spinner/Spinner'
 
 export default function Checkout() {
@@ -78,7 +79,7 @@ export default function Checkout() {
 
     if (orderId) {
         return (
-            <div className='container-detail'>
+            <div className='container-detail order-completed'>
                 <h3>¡Compra finalizada satisfactoriamente!</h3>
                 <p>El id de su pedido es: {orderId}</p>
             </div>
@@ -90,15 +91,17 @@ export default function Checkout() {
             <h2>Checkout</h2>
             {required && <p>Por favor, complete todos los campos.</p>}
             {emailConfirmed && <p>Ambos correos no coinciden.</p>}
-            <h3>Ingresa tus datos:</h3>
-            <form onSubmit={handleSubmit}>
-                <input type='text' name='name' placeholder='Nombre' value={buyer.name} onChange={handleOrder} />
-                <input type='text' name='surname' placeholder='Apellido' value={buyer.surname} onChange={handleOrder} />
-                <input type='email' name='email' placeholder='E-mail' value={buyer.email} onChange={handleOrder} />
-                <input type='email' name='emailConfirm' placeholder='Confirmar e-mail' value={buyer.emailConfirm} onChange={handleOrder} />
-                <input type='text' name='phone' placeholder='Teléfono' value={buyer.phone} onChange={handleOrder} />
-                <button type='submit'>Finalizar Compra</button>
-            </form>
+            <div className='form-container'>
+                <h3>Ingresa tus datos:</h3>
+                <form onSubmit={handleSubmit} className='form'>
+                    <input type='text' name='name' placeholder='Nombre' value={buyer.name} onChange={handleOrder} />
+                    <input type='text' name='surname' placeholder='Apellido' value={buyer.surname} onChange={handleOrder} />
+                    <input type='email' name='email' placeholder='E-mail' value={buyer.email} onChange={handleOrder} />
+                    <input type='email' name='emailConfirm' placeholder='Confirmar e-mail' value={buyer.emailConfirm} onChange={handleOrder} />
+                    <input type='text' name='phone' placeholder='Teléfono' value={buyer.phone} onChange={handleOrder} />
+                    <button type='submit'>Finalizar Compra</button>
+                </form>
+            </div>
         </div>
     )
 }
