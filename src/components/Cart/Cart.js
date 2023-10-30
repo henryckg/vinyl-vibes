@@ -30,8 +30,10 @@ export default function Cart() {
                 cart.length > 0 ?
                 <div className="cart-details">
                     <h4>Total a pagar: USD ${totalPrice()}</h4>
-                    <button onClick={()=>clearCart()} className="btn-vaciarz">Vaciar Carro</button>
-                    <Link to="/checkout" className="btn-link">Comprar</Link>
+                    <div className="cart-buttons">
+                        <button onClick={()=>clearCart()} className="btn-vaciar">Vaciar Carro</button>
+                        <Link to="/checkout" className="btn-link">Comprar</Link>
+                    </div>
                 </div>
                 :
                 <div className="empty-cart">

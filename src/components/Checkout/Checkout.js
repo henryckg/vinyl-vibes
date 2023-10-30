@@ -70,8 +70,8 @@ export default function Checkout() {
 
     if (loading) {
         return (
-            <div className='container-detail'>
-                <h3>Se está generando su orden</h3>
+            <div className='container-detail preparing-order'>
+                <h3 className='text-preparing'>Se está generando su orden</h3>
                 <SpinnerComponent />
             </div>
         )
@@ -89,8 +89,8 @@ export default function Checkout() {
     return (
         <div className="container-detail">
             <h2>Checkout</h2>
-            {required && <p>Por favor, complete todos los campos.</p>}
-            {emailConfirmed && <p>Ambos correos no coinciden.</p>}
+            {required && <p style={{textAlign:'center', marginTop:'2rem'}}>Por favor, complete todos los campos.</p>}
+            {emailConfirmed && <p style={{textAlign:'center', marginTop:'2rem'}}>Ambos correos no coinciden.</p>}
             <div className='form-container'>
                 <h3>Ingresa tus datos:</h3>
                 <form onSubmit={handleSubmit} className='form'>
@@ -99,7 +99,7 @@ export default function Checkout() {
                     <input type='email' name='email' placeholder='E-mail' value={buyer.email} onChange={handleOrder} />
                     <input type='email' name='emailConfirm' placeholder='Confirmar e-mail' value={buyer.emailConfirm} onChange={handleOrder} />
                     <input type='text' name='phone' placeholder='Teléfono' value={buyer.phone} onChange={handleOrder} />
-                    <button type='submit'>Finalizar Compra</button>
+                    <button type='submit' className='btn-submit'>Finalizar Compra</button>
                 </form>
             </div>
         </div>
