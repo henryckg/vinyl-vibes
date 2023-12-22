@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vynil-vibes/static/css/main.d407e537.css",
+    "main.js": "/vynil-vibes/static/js/main.8f447fdf.js",
+    "static/js/787.25b21216.chunk.js": "/vynil-vibes/static/js/787.25b21216.chunk.js",
+    "index.html": "/vynil-vibes/index.html",
+    "static/media/cart.svg": "/vynil-vibes/static/media/cart.b306a4f46183400e44d9e5cbac4dd971.svg",
+    "main.d407e537.css.map": "/vynil-vibes/static/css/main.d407e537.css.map",
+    "main.8f447fdf.js.map": "/vynil-vibes/static/js/main.8f447fdf.js.map",
+    "787.25b21216.chunk.js.map": "/vynil-vibes/static/js/787.25b21216.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d407e537.css",
+    "static/js/main.8f447fdf.js"
+  ]
+}
